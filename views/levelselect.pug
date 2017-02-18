@@ -1,0 +1,28 @@
+doctype html
+html.mdl-js(lang='en')
+  include includes/head.pug
+  body
+    .demo-layout.mdl-layout.mdl-layout--fixed-header.mdl-js-layout.mdl-color--grey-100
+      include includes/toolbar.pug
+      main.demo-main.mdl-layout__content
+        .demo-container.mdl-grid
+          .scrambler-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--12-col
+            .scrambler-crumbs.mdl-color-text--grey-500
+              a.crumbs-link(href='/home') Home
+              |  > Categories
+            h3= title
+        .demo-container.mdl-grid
+          .list-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--4-col
+            include includes/listitem.pug
+            p
+              // Two Line List with secondary info and action
+              - titles = ["Beginner", "Intermediate", "Advanced"]
+              - links = ["beginner", "intermediate", "advanced"]
+              ul.demo-list-two.mdl-list
+                each title, index in titles
+                  +listItem(title, links[index])
+        .mdl-grid
+          .scrambler-grid.mdl-cell.mdl-cell--12-col.mdl-cell--hide-tablet.mdl-cell--hide-phone
+        include includes/foot.pug
+    include includes/button.pug
+    include includes/scripts.pug

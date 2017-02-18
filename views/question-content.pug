@@ -1,0 +1,37 @@
+.demo-container.mdl-grid
+  .scrambler-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--12-col
+    include includes/crumbs.pug
+    h3=title
+  .question-container.mdl-grid.mdl-cell--12-col.mdl-cell
+    .nested-container.mdl-grid.mdl-cell--8-col.mdl-cell
+      mixin question(id, sentence, wordparts)
+        - scrambled = sentence.split(" ")
+        - scrambled.forEach(function(w, i, arr) { arr[i] = w.replace(/&|\$/gi, ' ') })
+        - wordparts = wordparts.split(" ")
+        - className = 'question-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col'
+        if id == 1
+          - className = className + ' first-question'
+        .nested-container.mdl-grid.mdl-cell--12-col.mdl-cell
+          div(class=className)
+            h5 Question #{id}
+            p(id='q'+id)
+              mixin answer-button(word, index, type, id)
+                button(id='s' + id + index class='my-mixed_case mdl-button mdl-js-button mdl-button--raised mdl-button--colored ' + type wordtype=type onclick='Javascript:writeWord(this, ' + id + ')')= word
+                span(id='tts'+id+index class='mdl-tooltip mdl-tooltip--large' for='s'+id+index)= type
+              each word, index in scrambled
+                +answer-button(word, index, wordparts[index], id)
+            div
+              button.mdl-button.mdl-js-button.mdl-button--fab(onclick='Javascript:clearAnswer('+id+')')
+                i.material-icons delete
+              input(id='MST'+id type='hidden')
+              .answer-text.mdl-textfield.mdl-js-textfield(id='MS'+id)
+              button.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--accent(onclick='Javascript:checkAnswer('+id+')')
+                | Check
+            div
+              h5(id='result'+id)
+      each question, index in questions
+        - id = index + 1
+        +question(id, question.sentence, question.parts)
+    include Instructions.pug
+  .mdl-grid
+    .scrambler-grid.mdl-cell.mdl-cell--12-col.mdl-cell--hide-tablet.mdl-cell--hide-phone

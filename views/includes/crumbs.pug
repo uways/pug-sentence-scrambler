@@ -1,0 +1,7 @@
+.scrambler-crumbs.mdl-color-text--grey-500
+  a.crumbs-link(href='/home') Home
+  - path = '/'
+  each crumb in crumbs
+    |  &gt
+    - path += crumb.toLowerCase() + '/'
+    a.crumbs-link(href=path)= ' ' + crumb

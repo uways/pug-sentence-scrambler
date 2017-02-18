@@ -1,0 +1,476 @@
+{
+  "present": {
+    "simple": {
+      "name": "Simple Present Tense"
+    , "beginner": [
+        { "sentence": "I love my mother.", "parts": "PRON V PRON N" }
+      , { "sentence": "My sister loves to feed cats.", "parts": "PRON N V PREP V N" }
+      , { "sentence": "Shahida writes a letter to her brother.", "parts": "N V ART N PREP DET N" }
+      , { "sentence": "Aisyah drives Rayyan to his office every day.", "parts": "N V N PREP DET N ADV" }
+      , { "sentence": "Thaqif likes to draw cartoon characters.", "parts": "N V PREP V ADJ N" }
+      , { "sentence": "Hagemaru always comes late to his Japanese class.", "parts": "N ADV V ADV PREP DET ADJ N" }
+      , { "sentence": "Dora helps Nobi to finish the homework.", "parts": "N V N PREP V DET N" }
+      , { "sentence": "The short story is inspiring.", "parts": "DET ADJ N BE ADJ" }
+      , { "sentence": "Tasneem brings home-cooked meals to work.", "parts": "N V ADJ N PREP N" }
+      , { "sentence": "Oliver cooks pasta for his guests.", "parts": "N V N PREP DET N" }
+      ]
+    , "intermediate": [
+        { "sentence": "The students are excited because they are in an English class.", "parts": "DET N BE ADJ CONJ PRON BE PREP ART ADJ N" }
+      , { "sentence": "The audience are not allowed to eat in the theatre, but some of them breaks the rule.", "parts": "DET N BE ADV V PREP V PREP DET N PREP DET PRON V DET N" }
+      , { "sentence": "Fadhil ties the knot with Malik's sister as requested by their family.", "parts": "N V DET N PREP POSN N CONJ V CONJ DET N" }
+      , { "sentence": "Taufik asks Hidayat to join him for dinner, but he refuses as he has other appointment.", "parts": "N V N PREP V DET PREP N CONJ PRON V PREP PRON V ADV N" }
+      , { "sentence": "Amsyar usually cycles to school, yet the heavy rain forces him to take a lift with his mother.", "parts": "N ADV V PREP N PREP DET ADJ N V DET PREP V ART N PREP DET N" }
+      , { "sentence": "Hafiy joins the debate club for his passion as a debater.", "parts": "N V DET ADJ N CONJ DET N CONJ ART N" }
+      , { "sentence": "The fetid does not end, nor is it reduced even though with the presence of air freshener.", "parts": "DET ADJ BE V CONJ BE DET V CONJ CONJ DET N PREP ADJ N" }
+      , { "sentence": "The examiner forgets to bring his glasses, so he cannot mark the paper.", "parts": "DET N V PREP V DET N CONJ PRON BE V DET N" }
+      , { "sentence": "Giring smokes the beef, and Mulan prepares the marinade.", "parts": "N V DET N CONJ N V DET N" }
+      , { "sentence": "Nicol swims in the pool, and Pandalela plays squash at the court.", "parts": "N V PREP DET N CONJ N V N PREP DET N" }
+      ]
+    , "advanced": [
+        { "sentence": "Nuri makes an effort to attend her Statistics class even though she is not feeling well.", "parts": "N V ART N PREP V DET ADJ N C PRON BE ADV V ADV" }
+      , { "sentence": "Shariman tries to win Rina's heart by giving her a bouquet of red roses.", "parts": "N V PREP V PRON N CONJ V POSN ARTQPREP ADJ N" }
+      , { "sentence": "Since Aiden is kind, most of the girls are uncontrollably fond of him.", "parts": "CONJ N BE ADJ DET PREP DET N BE ADV V PREP PRON" }
+      , { "sentence": "Even though Nazri is poor, he always helps people who is in need.", "parts": "CONJ N BE ADJ PRON ADV V N PRON BE PREP N" }
+      , { "sentence": "As a loving couple, Normy and Ejay help each other in doing the house chores to lighten their burden.", "parts": "PREP ART ADJ N N CONJ N V PRON PREP V DET ADJ N PREP V DET N" }
+      , { "sentence": "Siti works hard to achieve her dream because she is tired living the hard life.", "parts": "N V ADV PREP V DET N CONJ PRON BE ADJ V DET ADJ N" }
+      , { "sentence": "The new town planning in Kuala Nerang, Kedah receives warm feedback from the young generation since they are looking forward to an advanced lifestyle.", "parts": "DET ADJ N N PREP N N V ADJ N PREP DET ADK N CONJ DET BE V ADV PREP ART ADJ N" }
+      , { "sentence": "Cheating in an examination can tarnish the students' future; moreover it is an academic crime.", "parts": "V PREP ART N V V DET POSN N CONJ PRON V ART ADJ N" }
+      , { "sentence": "The shopping mall project in Segamat needs to be stopped; unless the authority grants permission to the developer.", "parts": "DET ADJ N PREP N V PREP BE V CONJ DET N V N PREP DET N" }
+      , { "sentence": "Even though Manu throws harsh critics on the contestants' meals; he still offers useful advices.", "parts": "CONJ N V ADJ N PREP DET POSN N N ADV V ADJ N" }
+      ]
+    },
+    "continuous": {
+      "name": "Present Continuous Tense",
+      "beginner": [
+        { "sentence": "I am eating my lunch.", "parts": "PN BE V DET N" }
+      , { "sentence": "She is completing her assignments.", "parts": "PN BE V DET N" }
+      , { "sentence": "Amri is playing his favourite game.", "parts": "PN BE V DET ADJ N" }
+      , { "sentence": "Imna is preparing dinner for tonight.", "parts": "N BE V N PREP ADV" }
+      , { "sentence": "Aunt$Leela is planting some flowers.", "parts": "N BE V DET N" }
+      , { "sentence": "Mak$Limah is cooking ‘nasi$lemak’.", "parts": "N BE V N" }
+      , { "sentence": "Pak$Husin is repairing the van.", "parts": "N BE V ART N" }
+      , { "sentence": "Mya is sitting on the couch.", "parts": "N BE V PREP ART N" }
+      , { "sentence": "Raef is helping his father.", "parts": "N BE V DET N" }
+      , { "sentence": "Janet is driving the car.", "parts": "N BE V ART N" }
+      ],
+      "intermediate": [
+        { "sentence": "She is lining up at the counter so her friend asks her to pay the bill.", "parts": "PN BE V PREP ART N CONJ DET N V PN INF V ART N" }
+      , { "sentence": "The seller is closing her shop but the customers are still busy shopping", "parts": "ART N BE V DET N CONJ ART N V ADV ADJ V" }
+      , { "sentence": "Azman is cleaning the window while his brother is cutting the grass.", "parts": "N BE V ART N ADV DET N BE V ART N" }
+      , { "sentence": "Mariah wants to join the singing competition but she is not feeling well.", "parts": "N V INF V ART ADJ N CONJ PN BE ADV V ADV." }
+      , { "sentence": "Mother is arranging the plates and Alya is cleaning the table.", "parts": "N BE V ART N CONJ N BE V ART N" }
+      , { "sentence": "Adna is drawing the picture of the scenery for the competition.", "parts": "N BE V ART N PREP ART N CONJ ART N" }
+      , { "sentence": "The vendors are delivering the products to the shop to fulfil the demand.", "parts": "ART N BE V ART N PREP ART N INF V ART N" }
+      , { "sentence": "She is thinking whether to further her study abroad or local.", "parts": "PN BE V CONJ INF V DET N ADV CONJ ADV " }
+      , { "sentence": "Farha and Ana are submitting their resumes to various companies around Kuala Lumpur.", "parts": "N CONJ N BE V PN N PREP ADJ N PREP N" }
+      , { "sentence": "Father is setting up the tent for us to sleep at night.", "parts": "N BE V PREP ART N CONJ PN INF V PREP N" }
+      ],
+      "advanced": [
+        { "sentence": "Although she is spending her holiday at the resort, she never forgets about her work at the office.", "parts": "CONJ PN BE V DET N PREP ART N PN ADV V PREP DET N PREP ART N." }
+      , { "sentence": "Even though her results are not good, she is applying for her degree.", "parts": "CONJ DET N BE ADV ADJ PN BE V CONJ DET N" }
+      , { "sentence": "The students are discussing about the project because they have to complete it soonest possible.", "parts": "ART N BE V PREP ART N CONJ PN AUX INF V PN ADJ ADJ" }
+      , { "sentence": "The kids are jumping happily because the teacher gives them some chocolates.", "parts": "ART N BE V ADV CONJ ART N V PN DET N" }
+      , { "sentence": "The corporate company is helping the poor families as that is part of the corporate responsibility.", "parts": "ART ADJ N BE V ART ADJ N CONJ PN BE N PREP ART ADJ N" }
+      , { "sentence": "The teacher is sending a warning letter to the students’ parents unless the students repent.", "parts": "ART N BE V ART ADJ N PREP ART POSSN N CONJ ART N V" }
+      , { "sentence": "Whenever she is feeling down, she will call her mother and father who live far away.", "parts": "ADV PN BE V ADV PN MOD V DET N CONJ N PN V ADJ ADV" }
+      , { "sentence": "If he is not moving out from the house, the landlord will make a police report.", "parts": "ADV PN  BE ADN V ADV V PREP  ADV PREP ART N ART N MOD V ART ADJ N" }
+      , { "sentence": "The journalists  are interviewing the public figure when he suddenly collapses. ", "parts": "ART N BE V ART ADJ N ADV PN ADV V" }
+      , { "sentence": "He is singing beautifully while the dancer is dancing gracefully on the stage.", "parts": "PN BE V ADV CONJ ART N BE V ADV PREP ART N" }
+      ]
+    },
+    "perfect": {
+      "name": "Present Perfect Tense",
+      "beginner": [
+        { "sentence": "They have achieved their targets.", "parts": "PRON AUX V DET N" }
+      , { "sentence": "She has written many comics.", "parts": "PRON AUX V DET N" }
+      , { "sentence": "The workers have received some complaints.", "parts": "ART N AUX V DET N  " }
+      , { "sentence": "That teacher has taught me for many years.", "parts": "DET N  AUX V PRON PREP DET N" }
+      , { "sentence": "The boys have fought before.", "parts": "DET N AUX V ADV    " }
+      , { "sentence": "Has mother given you the money?", "parts": "AUX N V PRON ART N" }
+      , { "sentence": "His wife has already cooked his favourite dish.", "parts": "DET N AUX  ADV V DET ADJ N" }
+      , { "sentence": "Aleeya has bought many books for her friend.", "parts": "N AUX V DET N PREP DET N" }
+      , { "sentence": "I have known her for three years.", "parts": "PRON AUX V PRON PREP ADJ N" }
+      , { "sentence": "We have visited most places in Korea.", "parts": "PRON AUX V DET N PREP N" }
+      ],
+      "intermediate": [
+        { "sentence": "The organiser has finally conducted an important event with the help of the local community. ", "parts": "ART N AUX  ADV V ART ADJ N PREP ART N PREP ART ADJ N" }
+      , { "sentence": "The company has expanded its business because of the big support received from the customers. ", "parts": "ART N AUX V POSP N CONJ PREP ART ADJ N V PREP ART N" }
+      , { "sentence": "Has she demonstrated to you how to use the new pot you bought recently?", "parts": "AUX PRON V PREP PRON ADV INF V ART ADJ N PRON V ADV" }
+      , { "sentence": "Sheila has completed her assignment because she wants to go shopping in the evening. ", "parts": "N AUX V DET N CONJ PRON V INF V N PREP DET N" }
+      , { "sentence": "Marsya is angry because she has told Arman to stop bothering her. ", "parts": "N BE ADJ CONJ PRON AUX V N INF V V PRON " }
+      , { "sentence": "The tailor has sewn my dress, so I have to collect it before she closes her shop. ", "parts": "ART N AUX V DET N CONJ PRON AUX INF V PRON PREP PRON V DET N" }
+      , { "sentence": "The two boys have stolen her purse, yet they are not caught. ", "parts": "ART ADJ N AUX V DET N CONJ PRON V ADV V" }
+      , { "sentence": "Have the police caught the boys who took her purse?", "parts": "AUX ART N V ART N PRON V DET N  " }
+      , { "sentence": "Marina and her husband have chosen France as their honeymoon destination because of the beautiful scenery. ", "parts": "N CONJ DET N AUX V N CONJ DET ADJ N CONJ PREP ART ADJ N" }
+      , { "sentence": "Because Carlos is very rich, he has visited various places in the world.", "parts": "CONJ N BE ADV ADJ PRON AUX V ADJ N PREP ART N" }
+      ],
+      "advanced": [
+        { "sentence": "Malaysians are advised to have a sensible financial planning as the price of petrol has gone up recently. ", "parts": "N BE V INF V ART ADJ ADJ N CONJ ART N PREP N AUX V PREP ADV" }
+      , { "sentence": "The three students, who have threatened their classmates, are called by the principal. ", "parts": "ART ADJ N PRON AUX V DET N BE V PREP ART N" }
+      , { "sentence": "I have seen the man whom you talked to yesterday but I am not sure who he is. ", "parts": "PRON AUX V ART N PRON PRON V PREP ADV CONJ  PRON BE ADV ADJ PRON PRON BE" }
+      , { "sentence": "Despite knowing the truth about his marital status, she has not learnt her lesson yet. ", "parts": "CONJ N ART N PREP DET ADJ N PRON AUX  ADV V DET N CONJ" }
+      , { "sentence": "Because Alisya has not seen her rabbit since yesterday, she is very anxious. ", "parts": "CONJ N AUX ADV V DET N CONJ ADV PRON BE ADV ADJ " }
+      , { "sentence": "Although he has been a teacher for fifteen years, he is always enthusiastic about his job. ", "parts": "CONJ PRON AUX V ART N PREP ADJ N PRON BE ADV ADJ PREP DET N" }
+      , { "sentence": "The bank manager has locked himself up in his room since morning because he has been convicted with money laundering. ", "parts": "ART ADJ N AUX V PRON PREP PREP DET N CONJ N CONJ PRON AUX V V PREP N  " }
+      , { "sentence": "Some witnesses have caught sight of the victims before they are reported missing. ", "parts": "DET N AUX V  N PREP ART N PREP PRON BE V ADJ" }
+      , { "sentence": "The invigilator has noticed something suspicious about that candidate, so, he stands near to him throughout the exam.      ", "parts": "ART N AUX V ADV ADJ PREP DET N CONJ PRON V PREP PREP PRON PREP ART N" }
+      , { "sentence": "After that fatal incident which caused the death of his best friend, Clark has not driven when he is drunk. ", "parts": "CONJ DET ADJ N PRON V ART N PREP DET ADJ N N AUX ADV V ADV PRON BE ADJ" }
+      ]
+    },
+    "perfect-continuous": {
+      "name": "Present Perfect Continuous Tense",
+      "beginner": [
+        { "sentence": "I have been looking for you all day.", "parts": "PRON AUXV V V PREP PRON DET N" }
+      , { "sentence": "She has been teaching since 2012.", "parts": "PRON AUXV V V PREP N" }
+      , { "sentence": "Rachel has  been nursing the cat since she found it.", "parts": "N AUXV V V ART N CONJ PRON V PRON" }
+      , { "sentence": "The kids have been complaining about their father's smoking habit.", "parts": "ART N AUXV V V PREP DET N ADJ N" }
+      , { "sentence": "We have been learning English for the past 11 years.", "parts": "PRON AUXV V V N PREP ART ADJ ADJ N" }
+      , { "sentence": "The performers have been practising for the concert.", "parts": "ART N AUXV V V PREP ART N" }
+      , { "sentence": "My parents have been exercising so hard to lose weight.", "parts": "DET N AUXV V V ADV ADJ PREP V N" }
+      , { "sentence": "How long have you been waiting for me?", "parts": "ADV ADJ AUXV PRON V V PREP PRON" }
+      , { "sentence": "The phone has been ringing for 10 minutes.", "parts": "ART N AUXV V V PREP ADJ N" }
+      , { "sentence": "Trisya has been dieting since March.", "parts": "N AUXV V V CONJ N" }
+      ],
+      "intermediate": [
+        { "sentence": "The girl has been playing piano since she was nine-year-old.", "parts": "ART N AUXV V V N CONJ PRON V ADJ" }
+      , { "sentence": "Since the day he received his promotion, he has been working very hard.", "parts": "CONJ ART N PRON V DET N PRON AUXV V V ADV ADV" }
+      , { "sentence": "The students look tired because they have been standing since morning.", "parts": "ART N V ADJ CONJ PRON AUXV V V CONJ N" }
+      , { "sentence": "The baby has been sleeping all day as a result of that medication.", "parts": "ART N AUXV V V ADJ N CONJ PREP DET N" }
+      , { "sentence": "Despite the second chance given by her boss, Ruby has not been doing her work well.", "parts": "CONJ ART ADJ N V PREP DET N N AUXV ADV V V DET N ADV" }
+      , { "sentence": "Jamilah has been collecting stamps since she was nine-years-old.", "parts": "N AUXV V V N CONJ PRON V ADJ " }
+      , { "sentence": "As the dog has been barking the whole night, the residents feel worried that something bad may happen.", "parts": "CONJ ART N AUXV V V ART ADJ N ART N V ADJ DET PRON ADJ MOD V" }
+      , { "sentence": "Jagjeet has been consuming alcohol since his wife left him.", "parts": "N AUXV V V N CONJ DET N V PRON" }
+      , { "sentence": "The girls have been shopping for the festive season since morning.", "parts": "ART N AUXV V V PREP ART ADJ N CONJ N" }
+      , { "sentence": "The boys have been calling her fat girl since she put on weight recently.", "parts": "ART N AUXV V V P ADJ N CONJ PRON V PREP N ADV" }
+      ],
+      "advanced": [
+        { "sentence": "The guest, who is wearing the blue shirt, has been complaining about the food since the waitress served it to him.", "parts": "ART N PRON V V ART ADJ N AUXV V V PREP ART N CONJ ART N V PRON PREP PRON" }
+      , { "sentence": "Upon receiving many complaints, the workers have been trying to improve their services.", "parts": "PREP V ADJ N ART N AUXV V V AUXTO V DET N" }
+      , { "sentence": "Our family has been seriously thinking about moving away since the new neighbour bought a house next to us.", "parts": "DET N AUXV V ADV V PREP V ADV CONJ ART ADJ N V ART N PREP PRON" }
+      , { "sentence": "Her fiancé loves her new look because she has been exercising for the past two months and she looks slender now.", "parts": "DET N V DET ADJ N CONJ PRON AUXV V V PREP ART ADV ADJ N CONJ PRON V ADJ ADV" }
+      , { "sentence": "Despite knowing that they are not good in Mathematics, the students have not been doing any practices for their exam next month.", "parts": "PREP V PRON PRON V ADV ADJ PREP N ART N AUXV ADV V V DET N PREP DET N ADJ N" }
+      , { "sentence": "James has been looking for his cat which he loves so much because it has been his companion since he was nine.", "parts": "N AUXV V V PREP DET N PRON PRON V ADV ADJ CONJ PRON AUXV V DET N CONJ PRON V N" }
+      , { "sentence": "Since Julie got married to that Italian guy, they have been residing in Italy for the past two years and she seems to enjoy living there.", "parts": "CONJ N V V PREP PRON ADJ N PRON AUXV V V PREP N PREP ART ADV ADJ N CONJ PRON V AUXTO ADJ V ADV" }
+      , { "sentence": "My roommate has been watching TV since we had dinner and everyone is annoyed because she only watches her favourite channel.", "parts": "DET N AUXV V V N CONJ PRON V N CONJ N V ADJ CONJ PRON ADV V DET ADJ N" }
+      , { "sentence": "Although Aqila has not been going home for a long time because she is too occupied with work, she always calls her parents to make sure they are well.", "parts": "CONJ N AUXV ADV V V N PREP ART ADJ N CONJ PRON V ADV V PREP N PRON ADV V DET N AUXTO V ADJ PRON V ADJ" }
+      , { "sentence": "The film has been running for thirty minutes but Jason does not seem to understand the plot because it is too complicated.", "parts": "ART N AUXV V V PREP ADJ N CONJ N V ADV V AUXTO V ART N CONJ PRON V ADV ADJ" }
+      ]
+    }
+  },
+  "past": {
+    "simple": {
+      "name": "Simple Past Tense",
+      "beginner": [
+        { "sentence": "Dewey went to school with his brother yesterday.", "parts": "N V PREP N CONJ DET N ADV" }
+      , { "sentence": "Malcom left his brother at the mall last week.", "parts": "N V DET N PREP DET N ADJ N" }
+      , { "sentence": "Sizuka met Giant at the playground this afternoon.", "parts": "N V N PREP DET N DET N" }
+      , { "sentence": "Ihsan ate dates mixed with oats for breakfast.", "parts": "N V N V CONJ N PREP N" }
+      , { "sentence": "Saripah left her keys in her room.", "parts": "N V DET N PREP DET N" }
+      , { "sentence": "Aizat broke his mother’s vase.", "parts": "N V DET POSN N" }
+      , { "sentence": "Castello created a false excuse for his absence to the camp.", "parts": "N V ART ADJ N PREP DET N PREP DET N" }
+      , { "sentence": "Chucky visited Belle at her school yesterday.", "parts": "N V N PREP DET N ADV" }
+      , { "sentence": "Shin cried over her broken toys.", "parts": "N V PREP DET ADJ N" }
+      , { "sentence": "I was late to the conference.", "parts": "PRON BE ADV PREP DET N" }
+      ],
+      "intermediate": [
+        { "sentence": "Lin scolded her students as they did not finish their homework yesterday.", "parts": "N V DET N CONJ PRON V ADV V DET N ADV" }
+      , { "sentence": "Deen refused to sit with Anna at the dining table as they had an argument a week before.", "parts": "N V INF V CONJ N PREP DET ADJ N CONJ PRON AUX ART N ART N CONJ" }
+      , { "sentence": "After Unni fed her baby, she sent him to the nursery opposite her house.", "parts": "CONJ N V DET N PRON V PRON PREP DET N PREP DET N" }
+      , { "sentence": "Himawari had an iguana as her pet before it was hit by the school bus.", "parts": "N AUX ART N CONJ DET N CONJ PRON BE V PREP DET ADJ N" }
+      , { "sentence": "Faizal wanted to perform a song at Tahir’s wedding, but he had a sore throat.", "parts": "N V INF V ART N PREP POSN N CONJ PRON AUX ART ADJ N" }
+      , { "sentence": "Hidayah brought along her lunchbox in case she got hungry in her journey to her village last weekend.", "parts": "N V PREP DET N PREP N PRON V ADJ PREP DET N PREP DET N ADJ N" }
+      , { "sentence": "Addy wanted to meet Adam$Lambert at his concert last year, but he was lost.", "parts": "N V INF V N PREP DET N ADJ N CONJ PRON BE ADJ" }
+      , { "sentence": "Sopiah decided to follow her elder brother on their way to the waterfall; but unfortunately he got lost.", "parts": "N V INF V DET ADJ N PREP DET N PREP DET N CONJ ADV PRON V ADJ" }
+      , { "sentence": "Chan broke his sister’s doll, but he refused to take the responsibility.", "parts": "N V DET POSN N CONJ PRON V INF V DET N" }
+      , { "sentence": "The tiger easily caught the impala because it ran slowly; furthermore its leg was injured.", "parts": "DET N ADV V DET N CONJ PRON V ADV CONJ POSN N BE ADJ" }
+      ],
+      "advanced": [
+       { "sentence": "Dan hurriedly ran into the fish market when he saw Lee, who was his rival since childhood.", "parts": "N ADV V PREP DET ADJ N CONJ PRON V N PN BE DET N CONJ N" }
+      , { "sentence": "Rangga visited Cinta at her house because he heard that she met with an accident last night.", "parts": "N V N PREP DET N CONJ PRON V DET PRON V CONJ ART N ADJ N" }
+      , { "sentence": "The residents of Kampung$Durian$Runtuh tried their best in the Local Fruit Competition last month; however they lost in the competition.", "parts": "DET N PREP N V DET N PREP DET N ADJ ADJ N CONJ PRON V PREP DET N" }
+      , { "sentence": "The students failed to reach their Physics lecturer as they got the wrong phone number. ", "parts": "DET N V INF V DET ADJ N CONJ PRON V DET ADJ ADJ N" }
+      , { "sentence": "Amalin was a very generous student during her school years as he loved to pay for his friends’ meals.", "parts": "N BE ART ADV ADJ N CONJ DET ADJ N CONJ PRON V INF V PREP DET POSN N" }
+      , { "sentence": "Neither my best friend, nor her husband attended my wedding.", "parts": "CONJ DET N CONJ DET N V DET N" }
+      , { "sentence": "Akira went to the magic show last night, even$though her friends asked her to join them for a group discussion.", "parts": "N V PREP DET ADJ N ADJ N CONJ PRON N V DET INF V PRON PREP ART ADJ N" }
+      , { "sentence": "The residents of Taman$Teguh filed a number of complaints on the gambling activities last festive season.", "parts": "DET N PREP N V DET PREP N PREP ART ADJ N ADJ ADJ N" }
+      , { "sentence": "The existence of the weird insects in the Southern of Thailand attracted many visitors to the place as they wanted to witness the unbelievable creature.", "parts": "DET N PREP DET ADJ N PREP DET N V DET N PREP DET N CONJ PRON V INF V DET ADJ N" }
+      , { "sentence": "The recording company from Taiwan agreed to sign a contract with Yunnam after her outstanding performance accompanied by the orchestra.", "parts": "DET ADJ N PREP N V INF V ART N CONJ N CONJ DET ADJ N V PREP DET N" }
+      ]
+    },
+    "continuous": {
+      "name": "Past Continuous Tense",
+      "beginner": [
+        { "sentence": "Laila was feeding the cat.", "parts": "N BE V ART N" }
+      , { "sentence": "Dr.&Nadia was examining her patient this morning.", "parts": "N BE V DET N PN N" }
+      , { "sentence": "Hanis was filling up the bottle just now.", "parts": "N BE V PREP ART N ADV ADV" }
+      , { "sentence": "Shazwany was writing a report yesterday.", "parts": "N BE V ART N ADV" }
+      , { "sentence": "Azima and Khairatul were attending a seminar.", "parts": "N CONJ N BE V ART N" }
+      , { "sentence": "Nabilah was working last night.", "parts": "N BE V ADJ N" }
+      , { "sentence": "Izzaty was correcting the documents.", "parts": "N BE V ART N" }
+      , { "sentence": "Halwani was baking a cake.", "parts": "N BE V ART N" }
+      , { "sentence": "Bella and Iman were watching movies.", "parts": "N CONJ N BE V N" }
+      , { "sentence": "Zul was painting his room.", "parts": "N BE V DET N" }
+      ],
+      "intermediate": [
+        { "sentence": "Yu$Jin was cooking in the kitchen while her husband was doing the lawn.", "parts": "N BE V PREP ART N CONJ DET N BE V ART N" }
+      , { "sentence": "Umar was walking on the field and he suddenly slipped.", "parts": "N BE V PREP ART N CONJ PN ADV V" }
+      , { "sentence": "Mother was folding the clothes while Amni was watching television.", "parts": "N BE V ART N CONJ N BE V N" }
+      , { "sentence": "The company was expanding its business but there was not enough employees.", "parts": "ART N BE V PN N CONJ ADV V ADV ADJ N" }
+      , { "sentence": "She was wrapping the present for the bride and groom.", "parts": "PN BE V ART N CONJ ART N CONJ N" }
+      , { "sentence": "The guard was yelling at the robbers and they ran away.", "parts": "ART N BE V PREP ART N CONJ PN V ADV" }
+      , { "sentence": "The girl was helping the blind man to cross the road and he said thanks.", "parts": "ART N BE V ART ADJ N INF V ART N CONJ PN V N" }
+      , { "sentence": "He was smiling but he was not feeling happy.", "parts": "PN BE V CONJ PN BE ADV V ADJ" }
+      , { "sentence": "Rina was dancing gracefully and everybody complimented her.", "parts": "N BE V ADV CONJ PN V PN" }
+      , { "sentence": "The baby was sleepy yet she was still playing happily.", "parts": "ART N BE ADJ CONJ PN BE ADV V ADV" }
+      ],
+      "advanced": [
+        { "sentence": "She was waiting for a university offer when her father suddenly asked her to marry the man.", "parts": "PN BE V CONJ ART ADJ N ADV DET N ADV V PN INF V ART N" }
+      , { "sentence": "While they were playing outside the house, mother took the chance to have a nap.", "parts": "ADV PN BE V PREP ART N N V ART N INF V ART N" }
+      , { "sentence": "They could not study at the college unless they were paying for their own fees.", "parts": "PN MOD ADV V PREP ART N CONJ PN BE V CONJ PN ADJ N" }
+      , { "sentence": "Eventhough he finished last in the race, he was still contemplating to join the competition.", "parts": "CONJ PN V N PREP ART N PN BE ADV V INF V ART N" }
+      , { "sentence": "Since Rina was not paying attention during the class, the principal asked her to stay back for detention.", "parts": "CONJ N BE ADV V N PREP N ART N V PN INF V ADV CONJ N" }
+      , { "sentence": "The toddler was throwing a tantrum for ten minutes until her mother came back home.", "parts": "ART N BE V ART N CONJ ADJ N CONJ DET N V ADV N" }
+      , { "sentence": "The manager was resigning if the sales dropped tremendously as rumoured.", "parts": "ART N BE V CONJ ART N V ADV CONJ V" }
+      , { "sentence": "She was yelling for help because there were thieves in her house.", "parts": "PN BE V CONJ N CONJ ADV BE N PREP DET N" }
+      , { "sentence": "Fazrul was still submitting the assignment though he finished it at the last minute.", "parts": "N BE ADV V ART N CONJ PN V PN PREP ART ADJ N" }
+      , { "sentence": "As he was giving the speech, the senator fainted suddenly and shocked everybody", "parts": "CONJ PN BE V ART N ART N V ADV CONJ V PN" }
+      ]
+    },
+    "perfect": {
+      "name": "Past Perfect Tense",
+      "beginner": [
+        { "sentence": "My mother asked us if we had seen her bag.", "parts": "DET N V PRON CONJ PRON AUX V DET N" }
+      , { "sentence": "Aida had told me the truth about her family.", "parts": "N AUX V PRON ART N PREP DET N" }
+      , { "sentence": "The girl had taken my book by mistake.", "parts": "ART N AUX V DET N PREP N" }
+      , { "sentence": "Rashid had driven for almost twelve hours.", "parts": "N AUX V PREP ADV ADJ N    " }
+      , { "sentence": "The students had worked hard for the test.", "parts": "ART N AUX V ADV PREP ART N" }
+      , { "sentence": "Has Francisca told you about her cat?", "parts": "AUX N V PRON PREP DET N" }
+      , { "sentence": "His maid had already cleaned his bedroom.", "parts": "DET N AUX  ADV V DET N" }
+      , { "sentence": "Shahir had read many historical books for his research.", "parts": "N AUX V DET ADJ N PREP DET N" }
+      , { "sentence": "I had played badminton with her before.", "parts": "PRON AUX V N PREP PRON PREP" }
+      , { "sentence": "We had visited many places when we studied in Japan.", "parts": "PRON AUX V DET N ADV PRON V PREP N" }
+      ],
+      "intermediate": [
+        { "sentence": "The player had finally succeeded to defeat his opponents by the time the whistle was blown.", "parts": "ART N AUX ADV V INF V DET N PREP ART N ART N BE V" }
+      , { "sentence": "By the time the postman arrived, Joanne and her friends had left the house. ", "parts": "PREP ART N ART N V N CONJ DET N AUX V ART N              " }
+      , { "sentence": "After the teacher had explained the task, the students went to the library and did some research.", "parts": "CONJ ART N AUX V ART N ART N V PREP ART N CONJ V DET N" }
+      , { "sentence": "Laila did not tell her friends that she had won the essay, writing competition.", "parts": "N V ADV V DET N PRON PRON AUX V ART ADJ ADJ N" }
+      , { "sentence": "Suzanne had had the worst nightmare in her life when the thief ransacked her home.", "parts": "N AUX V ART ADJ N PREP DET N ADV ART N V DET N " }
+      , { "sentence": "Despite my busy schedule, I had attended her wedding as not to disappoint her.", "parts": "CONJ DET ADJ N PRON AUX V DET N CONJ ADV INF V PRON" }
+      , { "sentence": "I had paid the entrance fee but I was not allowed to enter the exhibition hall.", "parts": "PRON AUX V ART ADJ N CONJ PRON BE ADV V INF V ART ADJ N" }
+      , { "sentence": "The children had a very terrible experience when their parents had left them with an irresponsible maid.", "parts": "ART N AUX ART ADV ADJ N ADV DET N AUX V PRON PREP ART ADJ N" }
+      , { "sentence": "When Anita called me at home, I had gone to the conference for the presentation.", "parts": "ADV N V PRON PREP N PRON AUX V PREP ART N PREP ART N" }
+      , { "sentence": "Since her pet had died because of an unknown disease, Zana felt sad and frustrated.", "parts": "CONJ DET N AUX V CONJ PREP ART ADJ N N V ADJ CONJ ADJ" }
+      ],
+      "advanced": [
+        { "sentence": "If Florence had shown her interests in arts, her parents would not have asked her to take science.", "parts": "CONJ N AUX V DET N PREP N DET N MOD ADV AUX V PRON INF V N" }
+      , { "sentence": "Besides truancy, the three students had been reprimanded for another two serious offences. ", "parts": "CONJ N ART ADJ N AUX V V PREP DET ADJ ADJ N" }
+      , { "sentence": "Although I had seen the man whom you talked to somewhere, I could not remember his name. ", "parts": "CONJ PRON AUX V ART N PRON PRON V PREP ADV PRON MOD ADV V DET N" }
+      , { "sentence": "After the secretary had typed the letters, she went for lunch with some colleagues. ", "parts": "CONJ  ART N AUX V ART N S V PREP N PREP DET N      " }
+      , { "sentence": "By the time she learnt that her father had met with an accident, she broke down and cried. ", "parts": "PREP ART N PRON V PRON DET N AUX V PREP ART N PRON V PREP CONJ V" }
+      , { "sentence": "The teacher scolded the three boys because they had smoked behind the school library.", "parts": "ART N V ART ADJ N CONJ PRON AUX V PREP ART ADJ N" }
+      , { "sentence": "As Roslan walked towards the classroom, he knew the teacher had entered the class because it was so quiet. ", "parts": "CONJ N V PREP ART N PRON V ART N AUX V ART N CONJ PRON BE ADV ADJ" }
+      , { "sentence": "The victims of the serial killer were found dead as the psychopath had murdered them ferociously. ", "parts": "ART N PREP ART ADJ N BE V ADJ CONJ ART N AUX V PRON ADV  " }
+      , { "sentence": "The candidate of the examination was asked to leave the hall as the invigilator had seen him cheating in the exam. ", "parts": "ART N PREP ART N BE V INF V ART N CONJ ART N AUX V PRON V PREP ART N" }
+      , { "sentence": "The new bridge had cracked even before people started using it. ", "parts": "ART ADJ N AUX V CONJ CONJ N V V PRON " }
+      ]
+    },
+    "perfect-continuous": {
+      "name": "Past Perfect Continuous Tense",
+      "beginner": [
+        { "sentence": "She had been working with the company for three years.", "parts": "PN AUX BE V PREP ART N PREP ADJ N" }
+      , { "sentence": "They had been waiting for the bus for two hours.", "parts": "PN AUX BE V PREP ART N PREP ADJ N" }
+      , { "sentence": "They said Mala had been trying to finish the project.", "parts": "PN V N AUX BE V PREP V ART N" }
+      , { "sentence": "We had been playing futsal for one hour before you came", "parts": "PN AUX BE V N INF ADJ N PREP PN V" }
+      , { "sentence": "She told me that she had been looking for a new phone.", "parts": "PN V PN PN PN AUX BE V PREP ART  ADJ N" }
+      , { "sentence": "Josephine had been surveying for a new apartment.", "parts": "N AUX BE V PREP ART ADJ N" }
+      , { "sentence": "Amber had been exercising for six months", "parts": "N AUX BE V PREP ADJ N" }
+      , { "sentence": "Lateefa had been following the suspicious car.", "parts": "N AUX BE V PREP ART ADJ N" }
+      , { "sentence": "Emma had been eyeing the necklace for quite some time.", "parts": "N AUX BE V ART N PREP ADJ DET N" }
+      , { "sentence": "We had been playing play station for several hours.", "parts": "PN AUX BE V N PREP DET N" }
+      ],
+      "intermediate": [
+        { "sentence": "She had been working there for four years before she was offered to work with Jaya$Holdings.", "parts": "PN AUX BE V ADV PREP ADJ N PREP PN BE V INF V PREP ADJ N" }
+      , { "sentence": "They had been waiting for the bus for two hours before they were informed that the bus broke down.", "parts": "PN AUX BE V PREP ART N PREP ADJ N CONJ PN BE V PN ART N V ADV" }
+      , { "sentence": "Mala had been trying to finish  the project for one week.", "parts": "N AUX BE V INF V ART N PREP ADJ N" }
+      , { "sentence": "We had been playing futsal for two hours when suddenly it rained.", "parts": "PN AUX BE V N PREP ADJ N CONJ ADV PN V" }
+      , { "sentence": "She had been looking for a new phone for a while before she finally bought one.", "parts": "N PREP ART N CONJ PN ADV V N." }
+      , { "sentence": "Isabelle had been surveying for a new apartment before she saw the advertisement.", "parts": "N AUX BE V PREP ART ADJ N" }
+      , { "sentence": "Amberlyn had been exercising for six months before she lost weight.", "parts": "N AUX BE V PREP ADJ N" }
+      , { "sentence": "Ellen had been buying the medicines from the pharmacy before it was closed.", "parts": "N AUX BE V PREP ART ADJ N" }
+      , { "sentence": "Lisa had been contemplating to buy the necklace before her father bought her one.", "parts": "N AUX BE V ART N PREP ADJ DET N" }
+      , { "sentence": "Sasha had been playing games for few hours when her mother entered her room.", "parts": "PN AUX BE V N PREP DET N" }
+      ],
+      "advanced": [
+        { "sentence": "Eventhough she had been working there for a long time, she did not hesitate to change jobs", "parts": "CONJ PN AUX BE V ADV PREP ART ADJ N PN V ADV V INF V N" }
+      , { "sentence": "They did not make any effort to use another public transportation even though they had been waiting for the bus for three hours.", "parts": "PN  V ADV V N DET V ADV ADJ N CONJ PN AUX BE V PREP ART N PREP ADJ N" }
+      , { "sentence": "Mala had been trying to finish the work for few months when the project leader informed her that the project was cancelled.", "parts": "N AUX BE V INF V ART N PREP DET N CONJ ART ADJ N V PN PN ART N BE V" }
+      , { "sentence": "Since we had been playing for two hours, we felt very thirsty.", "parts": "CONJ PN AUX BE V PREP ADJ N PN V ADV ADJ" }
+      , { "sentence": "Although she had been looking for a new phone for a while, she did not rush into buying a new one. ", "parts": "CONJ PN AUX BE V PREP ART ADJ N PREP ART N PN V ADV V PREP V ART ADJ N" }
+      , { "sentence": "Since she had been surveying for a new apartment for a few months, Laura gave her the contact number of the real state agent.", "parts": "CONJ PN AUX BE V PREP ART ADJ N PREP DET N N V PN ART ADJ N PREP ART ADJ ADJ N" }
+      , { "sentence": "Since Britney and Christina had been playing volleyball for a long time, they taught their friends the skills of playing volleyball.", "parts": "CONJ N PREP N AUX BE V N PREP ART ADJ N PN V DET N ART N PREP V N" }
+      , { "sentence": "Although Noah had been joining the band for several years, he still could not get along with the band mates.", "parts": "CONJ N AUX BE V ART N PREP DET N PN ADV MOD ADV V ADV PREP ART ADJ N" }
+      , { "sentence": "Since Jessica had been contemplating to buy the necklace for months, her husband bought her one.", "parts": "CONJ N AUX BE V INF V ART N PREP N DET N V PN N" }
+      , { "sentence": "Ayda had been cooking for twenty years when she decided to open her own restaurant. ", "parts": "N AUX BE V PREP ADJ N CONJ PN V PREP V DET ADJ N" }
+      ]
+    }
+  },
+  "future": {
+    "simple": {
+      "name": "Simple Future Tense",
+      "beginner": [
+        { "sentence": "I will meet my mother tonight.", "parts": "PRON MOD V DET N ADV" }
+      , { "sentence": "Shall we have a replacement class next week?", "parts": "MOD PRON AUX ART ADJ N ADJ N" }
+      , { "sentence": "Zuryn will deliver her second baby in two weeks.", "parts": "PRON MOD V DET ADJ N PREP ADJ N" }
+      , { "sentence": "Qish is not going to celebrate her birthday this year.", "parts": "N BE ADV V INF V DET N ADJ N" }
+      , { "sentence": "The students are going to present their final project.", "parts": "DET N BE V INF V DET ADJ N" }
+      , { "sentence": "Siti is going to be the next bride.", "parts": "N BE V PREP BE DET ADJ N" }
+      , { "sentence": "What shall I tell my father about my failure?", "parts": "DET MOD PRON V DET N CONJ DET N" }
+      , { "sentence": "Arman will buy the bus ticket later.", "parts": "N MOD V DET ADJ N ADV" }
+      , { "sentence": "Farah and Dhiya are going to finish their assignment before lunch.", "parts": "N CONJ N BE V INF V DET N CONJ N" }
+      , { "sentence": "Will you join the conference next month?", "parts": "MOD PRON V DET N ADJ N" }
+      ],
+      "intermediate": [
+        { "sentence": "Nureen is not going to meet her supervisor unless her mother accompanies her.", "parts": "N BE ADV V INF V DET N CONJ DET N V PRON" }
+      , { "sentence": "The students will face a very challenging semester next year if they join the Volunteers Club.", "parts": "DET N MOD V ART ADV ADJ N ADJ N CONJ PRON V DET ADJ N" }
+      , { "sentence": "Syarikat$Mahsyur is going to fund its staff’s vacation if they maintain a good performance in developing the company.", "parts": "N BE V INF V POSN POSN N CONJ PRON V ART ADJ N PREP V ART N" }
+      , { "sentence": "Anita will not meet Mahadir in future, unless he apologizes for their misunderstanding.", "parts": "N BE V INF V ART ADJ N PREP POSN N CONJ PRON V V" }
+      , { "sentence": "Jafri is going to buy a recipe book for Julia’s birthday because she likes cooking.", "parts": "N BE V INF V ART ADJ N PREP POSN N CONJ PRON V V" }
+      , { "sentence": "Warda will follow her mother to Zumba class on Friday for her weekly fitness training.", "parts": "N MOD V DET N PREP ADJ N PREP ADV PREP DET ADJ ADJ N" }
+      , { "sentence": "Naura is going to meet the dentist on Monday for a scheduled treatment.", "parts": "N BE V INF V DET N PREP ADV PREP ART ADJ N" }
+      , { "sentence": "The students will have a successful presentation as they have prepared four weeks earlier.", "parts": "DET N MOD AUX ART ADJ N CONJ PRON AUX V ADJ N ADV" }
+      , { "sentence": "Nelly is not going to attend her neighbour’s wedding at her hometown next week if she has to work overtime.", "parts": "N DE ADV V INF V DET POSN N PREP DET N ADJ N CONJ PRON AUX INF V ADV" }
+      , { "sentence": "The lecturer will deduct the students’ mark if they fail to submit the assignment before the deadline.", "parts": "ART N MOD V ART POSN N CONJ PRON V INF V ART N CONJ ART N" }
+      ],
+      "advanced": [
+        { "sentence": "Maria is going to help Jose with his new job soon; however he must show his effort first.", "parts": "N BE V INF V N CONJ DET ADJ N ADV CONJ PRON MOD V DET N ADV" }
+      , { "sentence": "Carla is not going to play at the park until she finishes the house chores that her mother has assigned her.", "parts": "N BE ADV V INF V PREP DET N CONJ PRON V ART ADJ N DET DET N AUX V PRON" }
+      , { "sentence": "Noh and his band will listen to positive critics based on their outstanding performance tonight.", "parts": "N CONJ DET N MOD N PREP ADJ N V PREP DET ADJ N ADV" }
+      , { "sentence": "Gopal will not pass the examination if he refuses to have the consultation with his tutor.", "parts": "N MOD ADV V ART N CONJ PRON V INF AUX ART N PREP DET N" }
+      , { "sentence": "The new eye-catching look of Kampung$Pong$Utara will attract more visitors to its homestay project.", "parts": "DET ADJ ADJ N PREP N MOD V DET N PREP DET ADJ N" }
+      , { "sentence": "The town councilor will monitor the project closely as he gets many complaints from the citizens.", "parts": "DET ADJ N MOD V ART N ADV CONJ PRON V DET N PREP DET N" }
+      , { "sentence": "Kak$Limah is going to spend a few months at her son’s house as her beloved daughter in law will deliver her first grandchild soon.", "parts": "N BE V INF V DET N PREP DET POSN N CONJ DET ADJ N MOD V DET ADJ N ADV" }
+      , { "sentence": "Sofia is going to participate in the hiking activities with her husband next year as their honeymoon plan.", "parts": "N BE V INF V PREP ART ADJ N CONJ DET N ADJ N CONJ DET ADJ N " }
+      , { "sentence": "The students will sit for their final examination in two weeks, therefore they are going to have their intensive tutorial class every day.", "parts": "DET N MOD V PREP DET ADJ N PREP ADJ N CONJ PRON BE V INF V DET ADJ ADJ N ADV" }
+      , { "sentence": "The gardeners will decorate the university for the minimalist landscaping competition.", "parts": "DET N MOD V ART N " }
+      ]
+    },
+    "continuous": {
+      "name": "Future Continuous Tense",
+      "beginner": [
+        { "sentence": "I will be waiting for you tonight.", "parts": "PN MOD BE V CONJ PN ADV" }
+      , { "sentence": "She will be sleeping when you arrive", "parts": "PN MOD BE V ADV PN V" }
+      , { "sentence": "Shah Rukh will be filming his latest movie next year.", "parts": "N MOD BE V DET ADJ N ADJ N" }
+      , { "sentence": "Aman  will be writing his thesis next month.", "parts": "N MOD BE V DET N ADJ N" }
+      , { "sentence": "Malaysia will be celebrating its 60th year of independence soon.", "parts": "N MOD BE V DET ADJ N PREP N ADV" }
+      , { "sentence": "She will be studying at the library this evening. ", "parts": "PN MOD BE V PREP ART N DET N" }
+      , { "sentence": "He will be watching the television when you come tonight.", "parts": "PN MOD BE V ART N ADV PN V ADV" }
+      , { "sentence": "Aina will be cleaning the room when her parents reach her hostel.", "parts": "N V BE V ART N ADV DET N V DET N" }
+      , { "sentence": "Luqman will be submitting the assignment tomorrow.", "parts": "N MOD BE V ART N ADV" }
+      , { "sentence": "We will still be driving by the time you leave.", "parts": "PN MOD ADV BE V CONJ ART N PN V" }
+      ],
+      "intermediate": [
+        { "sentence": "She will be cooking and I will be decorating for tonight’s party.", "parts": "PN MOD BE V CONJ PN MOD BE V CONJ POSSN N" }
+      , { "sentence": "Rania will be presenting the slides while Su will be helping her with the computer during the conference.", "parts": "PN V BE V ART N ADV PN V BE V DET CONJ ART N PREP ART N" }
+      , { "sentence": "Hafiy will be playing with his violin in today’s competition and he will make his parents proud.", "parts": "N MOD BE V PREP DET N PREP POSSN N CONJ PN MOD V DET N ADJ" }
+      , { "sentence": "Chong$Wei will be presenting Malaysia for Olympic this year ", "parts": "N MOD BE V N CONJ N DET N" }
+      , { "sentence": "Insyirah will be wearing her best attire for her convocation so that she will feel confident.", "parts": "N MOD BE V DET ADJ N CONJ DET N CONJ PN MOD V ADJ" }
+      , { "sentence": "She will be planting the tree before the monsoon season comes.", "parts": "PN MOD BE V ART N ADV ART ADJ N V" }
+      , { "sentence": "Hilmi will be preparing the machines for the company inspection.", "parts": "N MOD BE V ART N CONJ ART ADJ N" }
+      , { "sentence": "Hanim will be helping Fatin with the task.", "parts": "N V BE V N CONJ ART N" }
+      , { "sentence": "Yusof will be giving  the sermon at the mosque.", "parts": "N MOD BE V ART N PREP ART N" }
+      , { "sentence": "Normah will be baking some cakes when her children return home.", "parts": "N MOD BE V DET N ADV DET N V N" }
+      ],
+      "advanced": [
+        { "sentence": "Although she is having stomachache, she will be going to the class this afternoon.", "parts": "CONJ PN BE V N PN MOD BE V PREP ART N DET N" }
+      , { "sentence": "She will still be paying for the house rent even though she is leaving to London soon.", "parts": "PN MOD ADV BE V CONJ ART ADJ N CONJ PN BE V PREP N ADV" }
+      , { "sentence": "Hafiz will be painting the wall this afternoon because he needs to wait for the wallpaper to be taken down.", "parts": "N MOD BE V ART N DET N CONJ PN V INF V PREP ART N PREP BE V PREP" }
+      , { "sentence": "Naufal will be running in the race today even though his leg is injured.", "parts": "PN MOD ADV BE V ART N PREP ART N CONJ DET PREP ART N MOD ADV BE ADJ" }
+      , { "sentence": "They will still be performing the sketch during the talentime although some of the cast will not be present.", "parts": "PN MOD BE V N DET ADV CONJ PN V" }
+      , { "sentence": "He will be playing football this afternoon unless it rains.", "parts": "PN MOD BE V N ADV CONJ PN BE V PREP V ART ADJ N" }
+      , { "sentence": "She will be watching television tonight unless she is invited to join the study group.", "parts": "N MOD ADV BE V CONJ ART N CONJ ART N V PN  PREP V ADV." }
+      , { "sentence": "Suzanne will still be playing for the team unless the coach refrains her from doing so.", "parts": "N MOD ADV BE V PREP ART N CONJ N AUX V PREP ART N ADV" }
+      , { "sentence": "Iman will still be living at the house although thieves have broken into the house twice", "parts": "CONJ PN BE ADV V PN MOD ADV BE V PREP ART N" }
+      , { "sentence": "Even though she is not prepared, she will still be presenting at the conference.", "parts": "" }
+      ]
+    },
+    "perfect": {
+      "name": "Future Perfect Tense",
+      "beginner": [
+        { "sentence": "By this time tomorrow, she will have completed her work.", "parts": "PREP DET N ADV PRON MOD AUX V DET N" }
+      , { "sentence": "My mother will have baked the cake by the time we arrive.", "parts": "DET N MOD AUX V DET N PREP ART N PRON V" }
+      , { "sentence": "The test will have ended by 12 o’clock.", "parts": "ART N MOD AUX V PREP ADJ N" }
+      , { "sentence": "The shop will have closed by the time we get there.", "parts": "ART N MOD AUX V PREP ART N PRON V ADV" }
+      , { "sentence": "By 9 a.m. on Sunday, Lisa will have left the country.", "parts": "PREP ADJ N PREP N N MOD AUX V ART N" }
+      , { "sentence": "By the time we reach the office, the clients will have arrived. ", "parts": "PREP ART N PRON V ART N ART N MOD AUX V" }
+      , { "sentence": "His wife will have washed the clothes when he gets there.   ", "parts": "DET N MOD AUX V ART N ADV PRON V ADV" }
+      , { "sentence": "Amar will have finished reading the book when the plane lands. ", "parts": "N MOD AUX V V ART N ADV ART N V" }
+      , { "sentence": "I will have started playing football when the rain stops. ", "parts": "PRON MOD AUX V V N ADV ART N V" }
+      , { "sentence": "We will have travelled to many countries when we are old.", "parts": "PRON MOD AUX V PREP DET N ADV PRON V ADJ" }
+      ],
+      "intermediate": [
+        { "sentence": "We have not seen the baby for three years so I am sure by now he will have learnt to walk. ", "parts": "PRON AUX ADV V ART N PREP ADJ N CONJ PRON V ADV PREP ADV PRON MOD AUX  V TO V" }
+      , { "sentence": "At this time next week, my teacher will have reached London for her graduation.", "parts": "PREP DET N ADJ N DET N MOD AUX V N PREP DET N" }
+      , { "sentence": "By the time the new book arrives, Amanda will have finished reading the book I gave her.", "parts": "PREP ART N ART ADJ N V N MOD AUX V V ART N PRON V PRON" }
+      , { "sentence": "Despite the bad weather, my manager will have gone home by 10 o’clock.", "parts": "CONJ ART ADJ N DET N MOD AUX V N PREP ADJ N" }
+      , { "sentence": "Although it sounds impossible, Patrick will have eaten dinner by this time tomorrow.", "parts": "CONJ PRON V ADJ N MOD AUX V N PREP DET N ADV" }
+      , { "sentence": "When the kids are older, they will have understood how difficult it is to get money.", "parts": "ADV ART N V ADJ PRON MOD AUX V ADV ADJ PRON BE INF V N" }
+      , { "sentence": "Haiqal will have graduated by the next time I see him because this is his last semester.", "parts": "N MOD AUX V PREP ART ADJ N PRON V PRON CONJ PRON BE DET ADJ N" }
+      , { "sentence": "The two boys will have completed their assignments by the time the lecturer asks them to submit.", "parts": "ART ADJ N MOD AUX V DET N PREP ART N ART N V PRON INF V" }
+      , { "sentence": "They are worried because by the time they arrive in Penang, the bus driver will have driven for eight hours.", "parts": "PRON BE V CONJ PREP ART N PRON V PREP N ART ADJ N MOD AUX V PREP ADJ N" }
+      , { "sentence": "Marathon runners have good stamina because by the time they reach the finish line, they will have run for more than two hours.", "parts": "ADJ N AUX ADJ N CONJ PREP ART N PRON V ART ADJ N PRON MOD AUX V PREP ADJ PREP ADJ N" }
+      ],
+      "advanced": [
+        { "sentence": "After some intensive trainings and undivided commitment she puts in the game, the team will have won the competition at this time tomorrow.", "parts": "PREP DET ADJ N CONJ ADJ N PRON V PREP ART N DET N MOD AUX V DET N PREP DET N ADV" }
+      , { "sentence": "The two students are quite sure that their friends will have prepared for their birthday party by the time they arrive.", "parts": "ART ADJ N BE ADV ADJ PRON DET N MOD AUX V PREP DET ADJ N PREP ART N PRON V" }
+      , { "sentence": "By tomorrow night, Anita and her mother will have boarded a plane to Scotland for her eldest sister’s graduation day.", "parts": "PREP ADJ N N CONJ DET N MOD AUX V DET N PREP N PREP DET ADJ POSN ADJ N      " }
+      , { "sentence": "If we choose to go to the mall first, the concert will have started by the time we arrive.", "parts": "CONJ PRON V INF V PREP ART N DETART N MOD AUX V PREP ARTN PRON V" }
+      , { "sentence": "One of the employees has promised his superior that by the end of this week he will have achieved the target. ", "parts": "PRON PREP ART N AUX V DET N CONJ PREP ART N PREP DET N PRON MOD AUX V ART N" }
+      , { "sentence": "When Professor Lind retires next week, she will have taught the institution dedicatedly for 32 years. ", "parts": "ADV N V ADJ N PRON MOD AUX V ART N ADV PREP ADJ N" }
+      , { "sentence": "They have been married for a long time and by their next anniversary, they will have been married for 42 years. ", "parts": "PRON  AUX V V PREP ART ADJ N CONJ PREP DET ADJ N PRON MOD AUX V V PREP ADJ N" }
+      , { "sentence": "Ruby will have cleaned her house before her mother arrives because she knows her mother will not be happy looking at a messy house. ", "parts": "N MOD AUX V DET N PREP DET N V CONJ PRON V DET N MOD ADV V ADJ V PREP ART ADJ N" }
+      , { "sentence": "Patricia will have learnt numerous languages by the time she is 40 because she has decided to travel around the world.", "parts": "N MOD AUX V ADJ N PREP ART N PRON BE ADJ CONJ PRON AUX V INF V PREP ART N " }
+      , { "sentence": "My grandfather will have retired by the time he is sixty after working for that company for almost 35 years.", "parts": "DET N MOD AUX V PREP ART N PRON BE ADJ CONJ V PREP DET N PREP ADV ADJ N" }
+      ]
+    },
+    "perfect-continuous": {
+      "name": "Future Perfect Continuous Tense",
+      "beginner": [
+        { "sentence": "Afiq will have been singing for four hours when we arrive.", "parts": "N MOD AUX BE V PREP ADJ N CONJ PRON V" }
+      , { "sentence": "I will have been arranging the two boxes of novels when you come home.", "parts": "PRON MOD AUX BE V ART ADJ N PREP N CONJ PRON V N" }
+      , { "sentence": "Imna will have been waiting there for 5 hours when her sister comes.", "parts": "N MOD AUX BE V ADV PREP ADJ N CONJ DET N V" }
+      , { "sentence": "Salmah will have been colouring the picture for two hours when her father arrives. ", "parts": "N MOD AUX BE V ART N PREP ADJ N CONJ DET N V" }
+      , { "sentence": "Rifqi will have been watching the same channel for three hours when his mother arrives.", "parts": "N MOD AUX BE V ART ADJ N PREP ADJ N CONJ DET N V" }
+      , { "sentence": "The students will have been revising the chapter for 30 minutes when their lecturer arrives.", "parts": "ART N MOD AUX BE V ART N PREP ADJ N CONJ DET N V" }
+      , { "sentence": "Gary will have been washing the car for 20 minutes when Jin$Jin calls.", "parts": "N MOD AUX BE V ART N PREP ADJ N CONJ N V" }
+      , { "sentence": "Galileo will have been eating the same meal for a week when his parents come.", "parts": "N MOD AUX BE V ART ADJ N PREP ART N CONJ DET N V" }
+      , { "sentence": "Raj and Kumar will have been drawing the portrait for 30 minutes when their friends sing.", "parts": "N CONJ N MOD AUX BE N ART N PREP ADJ N CONJ DET N V" }
+      , { "sentence": "Chef$Kwon will have been cutting the produce for 20 minutes when his assistant calls.", "parts": "N MOD AUX BE V ART N PREP ADJ N CONJ DET N V" }
+      ],
+      "intermediate": [
+        { "sentence": "Salem and Donnie will have been visiting all districts of Kedah in three days.", "parts": "N CONJ N MOD AUX BE V ADJ N PREP N PREP ADJ N" }
+      , { "sentence": "The two cats will have been fighting for 20 minutes by the time their food is ready.", "parts": "ART ADJ N MOD AUX BE V PREP ADJ N PREP ART N DET N BE ADJ" }
+      , { "sentence": "Medina will have been crying for 30 minutes by the time they arrive at the nursery.", "parts": "N MOD AUX BE V PREP ADJ N PREP ART N PRON V PREP ART N" }
+      , { "sentence": "Salsabila will have been sitting on the floor for an hour by the time the waiter brings the chair.", "parts": "N MOD AUX BE V PREP ART N PREP ART N PREP ART N ART N V ART N" }
+      , { "sentence": "Qaseh will have been sleeping for two hours by the time her father finishes his cooking.", "parts": "N MOD AUX BE V PREP ADJ N PREP ART N DET N V DET N" }
+      , { "sentence": "They will have been planting the vegetables for two hours by the time we bring the drinks. ", "parts": "PRON MOD AUX BE V ART N PREP ADJ N PREP ART N PRON V ART N" }
+      , { "sentence": "Yunae will have been talking to her boss for an hour by the time her officemates arrives.", "parts": "N MOD AUX BE V PREP DET N PREP ART N PREP ART N PRON N V" }
+      , { "sentence": "Bok$Joo will have been sewing the cloth for five hours when her husband arrives.", "parts": "N MOD AUX BE V ART N PREP ADJ N CONJ DET N V" }
+      , { "sentence": "Chloe and Santana will have been playing the instruments for two years when the music class starts.", "parts": "N CONJ N MOD AUX BE V ART N PREP ADJ N CONJ ART ADJ N V" }
+      , { "sentence": "Hussin and Hassan will have been baking the cake for 40 minutes when their parents leave.", "parts": "N CONJ N MOD AUX BE V ART N PREP ADJ N CONJ DET N V" }
+      ],
+      "advanced": [
+        { "sentence": "The students are going to have been experimenting on the tapir for 24 months when we finally have the chance to visit it.", "parts": "ART N BE V INF AUX BE V PREP ART N PREP ADJ N CONJ PRON ADV AUX ART N INF V PRON" }
+      , { "sentence": "Sarimah will have been cooking for two hours when we finish the discussion.", "parts": "N MOD AUX BE V PREP ADJ N CONJ PRON V ART N" }
+      , { "sentence": "The lecturer is going to have been marking the papers for three hours when the meeting ends.", "parts": "ART N BE V INF AUX BE V ART N PREP ADJ N CONJ ART N V" }
+      , { "sentence": "Ray is going to have been weeping over his dying hedgehog for two weeks by the time we visit him next week.", "parts": "N BE V INF AUX BE V PREP DET ADJ N PREP ADJ N PREP ART N PRON V PRON ADJ N" }
+      , { "sentence": "Minnie is going to have been teasing Mickey for an hour by the time Donald prepares the new game.", "parts": "N BE V INF AUX BE V N PREP ART N PREP ART N N V ART ADJ N" }
+      , { "sentence": "Dean is going to have been hunting for the deer for two days by the time his brother meets him at the campsite.", "parts": "N BE V INF AUX BE V PREP ART N PREP ADJ N PREP ART N DET N V PRON PREP ART N" }
+      , { "sentence": "Kwang$Hee is going to have been playing the game for six hours when his parents call.", "parts": "N BE V INF AUX BE V ART N PREP ADJ N CONJ DET N V " }
+      , { "sentence": "Farha is going to have been frying the chips for five hours when her mother-in-law comes.", "parts": "N BE V INF AUX BE V ART N PREP ADJ N CONJ PRON N V" }
+      , { "sentence": "Messi and Kaka are going to have been cooking their signature dishes for one hour by the time Ji$Sung arrives.", "parts": "N CONJ N BE V INF AUX BE V DET ADJ N PREP ADJ N PREP ART N N V" }
+      , { "sentence": "Pete and Manu are going to have been criticizing the menu for 30 minutes by the time the guests arrive.", "parts": "N CONJ N BE V INF AUX BE V ART N PREP ADJ N PREP ART N ART N V" }
+      ]
+    }
+  }
+}

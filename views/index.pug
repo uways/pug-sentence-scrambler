@@ -1,0 +1,44 @@
+doctype html
+html.mdl-js(lang='en')
+  include includes/head.pug
+  body
+    .demo-layout.mdl-layout.mdl-layout--fixed-header.mdl-js-layout.mdl-color--grey-100
+      include includes/toolbar.pug
+      main.demo-main.mdl-layout__content
+        .demo-container.mdl-grid
+          .scrambler-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--12-col
+            .scrambler-crumbs.mdl-color-text--grey-500
+              a.crumbs-link(href='/home') Home
+              |  > Categories
+            h3 Sentence Scrambler! Take the challenge
+        .demo-container.mdl-grid
+          .list-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--4-col
+            include includes/listitem.pug
+            p
+              // Two Line List with secondary info and action
+              - titles = ["Simple Present Tense", "Present Continuous Tense", "Present Perfect Tense", "Present Perfect Continuous Tense"]
+              - links = ["/present/simple/", "/present/continuous/", "/present/perfect/", "/present/perfect-continuous/"]
+              ul.demo-list-two.mdl-list
+                each title, index in titles
+                  +listItem(title, links[index])
+          .list-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--4-col
+            p
+              // Two Line List with secondary info and action
+              - titles = ["Simple Past Tense", "Past Continuous Tense", "Past Perfect Tense", "Past Perfect Continuous Tense"]
+              - links = ["/past/simple/", "/past/continuous/", "/past/perfect/", "/past/perfect-continuous/"]
+              ul.demo-list-two.mdl-list
+                each title, index in titles
+                  +listItem(title, links[index])
+          .list-content.mdl-color--white.mdl-shadow--4dp.content.mdl-color-text--grey-800.mdl-cell.mdl-cell--4-col
+            p
+              // Two Line List with secondary info and action
+              - titles = ["Simple Future Tense", "Future Continuous Tense", "Future Perfect Tense", "Future Perfect Continuous Tense"]
+              - links = ["/future/simple/", "/future/continuous/", "/future/perfect/", "/future/perfect-continuous/"]
+              ul.demo-list-two.mdl-list
+                each title, index in titles
+                  +listItem(title, links[index])
+        .mdl-grid
+          .scrambler-grid.mdl-cell.mdl-cell--12-col.mdl-cell--hide-tablet.mdl-cell--hide-phone
+        include includes/foot.pug
+    include includes/button.pug
+    include includes/scripts.pug

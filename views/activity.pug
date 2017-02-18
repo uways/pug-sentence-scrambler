@@ -1,0 +1,11 @@
+doctype html
+html.mdl-js(lang='en')
+  include includes/head.pug
+  body
+    .demo-layout.mdl-layout.mdl-layout--fixed-header.mdl-js-layout.mdl-color--grey-100
+      include includes/toolbar.pug
+      main.demo-main.mdl-layout__content
+        include question-content.pug
+        include includes/foot.pug
+    include includes/button.pug
+    include includes/scripts.pug

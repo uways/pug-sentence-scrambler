@@ -1,0 +1,10 @@
+mixin listItem(title, link)
+  li.mdl-list__item.mdl-list__item--two-line
+    span.mdl-list__item-primary-content
+      i.material-icons.mdl-list__item-avatar description
+      span
+        a(href=link)=title
+      span.mdl-list__item-sub-title
+    span.mdl-list__item-secondary-content
+      a.mdl-list__item-secondary-action(href=link)
+        i.material-icons open_in_new

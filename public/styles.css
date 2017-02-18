@@ -1,0 +1,193 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.demo-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #3f51b5;
+  flex-shrink: 0;
+}
+
+.demo-main {
+  margin-top: -35vh;
+  flex-shrink: 0;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.demo-layout.is-small-screen .demo-content {
+  padding: 40px 28px;
+}
+
+.demo-list-two {
+  width: auto;
+}
+
+.demo-footer {
+  padding-left: 40px;
+}
+
+.demo-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+.scrambler-content {
+  border-radius: 2px;
+  padding: 0px 56px;
+  padding-bottom: 24px;
+}
+
+.list-content {
+  border-radius: 2px;
+  padding: 0px 16px;
+}
+
+.scrambler-crumbs {
+  margin-top: 80px;
+}
+
+.crumbs-link {
+      color: #9e9e9e !important;
+      text-decoration: none;
+}
+
+.scrambler-grid {
+  margin-bottom: 56px;
+}
+
+.mdl-list__item-primary-content a {
+  color: rgba(0,0,0,.87) !important;
+  text-decoration: none;
+}
+
+.mdl-list__item-primary-content a:hover {
+  text-decoration: underline;
+}
+
+.nested-container {
+  padding: 0;
+  margin: 0 -8px;
+}
+
+.first-question {
+  padding: 0;
+  margin-top: 0;
+}
+
+.question-content {
+  border-radius: 2px;
+  padding: 16px 16px;
+}
+
+.question-container {
+  margin-top: 0;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+}
+
+.my-mixed_case.mdl-button {
+   text-transform: none;
+   margin: 4px 2px;
+}
+
+.my-mixed_case[disabled][disabled] {
+  color: rgba(0,0,0,.26) !important;
+  background-color: rgba(0,0,0,.12) !important;
+  box-shadow: none;
+}
+
+.button-selected {
+  color: rgba(0,0,0,.26) !important;
+  background-color: rgba(0,0,0,.12) !important;
+  box-shadow: none;
+}
+
+.answer-text {
+  vertical-align: middle;
+  height: 60px;
+  position: relative;
+  font-size: 24px;
+  margin: 0 12px;
+  width: 70%;
+  padding: 20px 0;
+}
+
+.noun {
+  color: rgb(255,255,255) !important;
+  background-color: #4caf50 !important;
+}
+
+.preposition {
+  color: rgb(255,255,255) !important;
+  background-color: #424242 !important;
+}
+
+.verb {
+  color: rgb(255,255,255) !important;
+  background-color: #3553f9 !important;
+}
+
+.pronoun{
+  color: rgb(255,255,255) !important;
+  background-color: #ff6429 !important;
+}
+
+.adjective{
+  color: rgb(255,255,255) !important;
+  background-color: #ff9940 !important;
+}
+
+.adverb {
+  color: rgb(255,255,255) !important;
+  background-color: #5c60ff !important;
+}
+
+.determiner {
+  color: rgb(255,255,255) !important;
+  background-color: #d50000 !important;
+}
+
+.article {
+  color: rgb(255,255,255) !important;
+  background-color: #1abbb2 !important;
+}
+
+.verb-to-be {
+  color: rgb(255,255,255) !important;
+  background-color: #16517b !important;
+}
+
+.noun-text { color: #4caf50 }
+.prep-text { color: #424242 }
+.verb-text { color: #3553f9 }
+.pronoun-text { color: #ff6429 }
+
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
